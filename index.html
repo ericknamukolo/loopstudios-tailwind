@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loop Studios</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="input.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,6 +20,76 @@
     />
   </head>
   <body>
-    Hello world my nigga
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <!-- Menu/Logo container -->
+        <nav
+          class="flex flex-row items-center justify-between font-bold text-white"
+        >
+          <img src="./images/logo.svg" alt="" />
+          <!-- Menu -->
+          <div
+            class="hidden md:flex flex-row items-center h-10 font-alata gap-10"
+          >
+            <div class="group">
+              <a href="#">About</a>
+              <div
+                class="mx-2 group-hover:border-b-2 group-hover:border-blue-50 group-hover:pt-1 transition-all duration-400"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Careers</a>
+              <div
+                class="mx-2 group-hover:border-b-2 group-hover:border-blue-50 group-hover:pt-1 transition-all duration-400"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Events</a>
+              <div
+                class="mx-2 group-hover:border-b-2 group-hover:border-blue-50 group-hover:pt-1 transition-all duration-400"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Products</a>
+              <div
+                class="mx-2 group-hover:border-b-2 group-hover:border-blue-50 group-hover:pt-1 transition-all duration-400"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Support</a>
+              <div
+                class="mx-2 group-hover:border-b-2 group-hover:border-blue-50 group-hover:pt-1 transition-all duration-400"
+              ></div>
+            </div>
+          </div>
+          <!-- Mobile menu button -->
+          <div class="md:hidden">
+            <button class="text-white focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
+        </nav>
+        <!-- Mobile menu -->
+        <div
+          class="max-w-lg mt-32 p-4 font-sans text-4xl md:text-6xl md:mx-0 md:m-32 text-white uppercase border-2 border-white rounded-xl md:p-10"
+        >
+          Impressive Experiences That Deliver
+        </div>
+      </div>
+    </section>
   </body>
 </html>
